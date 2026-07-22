@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #312e81);
+    color: #fff
+}
+
+.page {
+    display: none;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center
+}
+
+.active {
+    display: flex
+}
+
+.card {
+    background: rgba(255, 255, 255, .12);
+    padding: 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: min(90%, 600px)
+}
+
+button {
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer
+}
+
+#yes,
+#start {
+    background: #6366f1;
+    color: #fff
+}
+
+#no {
+    background: #f472b6;
+    color: #fff;
+    position: relative
+}
+
+.progress {
+    height: 6px;
+    background: #333
+}
+
+.progress div {
+    height: 100%;
+    width: 25%;
+    background: #60a5fa;
+    transition: .4s
+}
+
+#opts button {
+    display: block;
+    width: 100%
+}

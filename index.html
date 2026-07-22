@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Friendship Mission</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="progress">
+        <div id="bar"></div>
+    </div>
+
+    <section id="welcome" class="page active">
+        <div class="card">
+            <h1>👋 Hey!</h1>
+            <p>I made something just for you.</p>
+            <button id="start">Start Mission 🚀</button>
+        </div>
+    </section>
+
+    <section id="contract" class="page">
+        <div class="card">
+            <h2>Friendship Contract</h2>
+            <ul>
+                <li>Reply to my texts 😂</li>
+                <li>Go on random trips 🚗</li>
+                <li>Listen to my stories</li>
+                <li>Stay awesome 😎</li>
+            </ul>
+            <p>Do you accept?</p>
+            <button id="yes">I Accept</button>
+            <button id="no">No Chance</button>
+            <p id="msg"></p>
+        </div>
+    </section>
+
+    <section id="quiz" class="page">
+        <div class="card">
+            <h2 id="q"></h2>
+            <div id="opts"></div>
+            <p id="fb"></p>
+        </div>
+    </section>
+
+    <section id="final" class="page">
+        <div class="card">
+            <h1>🏆 Certified Premium Friend</h1>
+            <p id="type"></p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
